@@ -10,7 +10,7 @@
 #
 # =======================================================
 
-ssh -L 5901:localhost:5901 -N -f remote_server -c arcfour,blowfish-cbc -XC
+ssh -L 5901:localhost:5901 -N -f rdr -c arcfour,blowfish-cbc -XC
 vncviewer localhost:1
 
 
