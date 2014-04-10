@@ -5,4 +5,6 @@
 # remote-machine should be an ssh alias defined in .ssh/config or hostname 
 # defined in the hosts file
 #
-ssh -L 5901:localhost:5901 -N -f remote-machine -c arcfour,blowfish-cbc -XC
+
+ssh_alias=$1
+ssh -L 5901:localhost:5901 -N -f $ssh_alias -c arcfour,blowfish-cbc -XC
