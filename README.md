@@ -14,3 +14,15 @@ based workflow might be a great solution. Especially for VNC
 sessions, SSH tunnels provide a lightweight and relatively 
 pain-free way to access remote resources. 
 
+### An example
+
+Take the example where you have a production server, which contains
+a resource which can only be accessed by a web GUI. Normally
+if you have physical access to box, you could load your
+favorite window manager, and then go ahead and type in 
+`http://localhost:port` into your browser.
+
+If you're on a remote machine, this gets a little harder, but you 
+_could_ set your machine to accept remote requests for this port. 
+This, however, opens up another area for an external attack on your
+machine.
