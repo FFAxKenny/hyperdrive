@@ -26,3 +26,12 @@ If you're on a remote machine, this gets a little harder, but you
 _could_ set your machine to accept remote requests for this port. 
 This, however, opens up another area for an external attack on your
 machine.
+
+
+## Requirements
+
+* Cygwin (if running Windows)
+* Tightvnc (if running windows)
+* Vncviewer
+* Python
+
