@@ -1,5 +1,5 @@
-# This command opens a background tunnel to the reis1remote hostname
-# and redirects remote requests on the port 5901 to the local machine
+# This command opens a background tunnel to the a hostname
+# and redirects remote requests to the same port on the local machine
 # (the machine that you are initiating the session from) 
 #
 # remote-machine should be an ssh alias defined in .ssh/config or hostname 
