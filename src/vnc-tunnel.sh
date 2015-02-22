@@ -15,4 +15,4 @@ screen=$2
 port=$((5900+$screen))
 # ssh -L 5901:localhost:5901 -N -f rdr -c arcfour,blowfish-cbc -XC
 ./create_tunnel.sh $ssh_alias $port
-vncviewer localhost:$screen
+xvnc4viewer localhost:$screen
